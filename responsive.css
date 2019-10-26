@@ -1,0 +1,668 @@
+
+@media screen and (min-width: 781px) and (max-width: 1200px) {
+	.advantages-main {
+    padding: 20px 10px;
+}
+
+	.navbar {
+		padding: 0px 50px;
+	}
+
+	.footer {
+	padding: 10px;
+}
+
+}
+
+@media screen and (min-width: 781px) and (max-width: 910px) {
+	.left-pos, .right-pos {
+		font-size: 17px;
+		bottom: -7px;
+	}
+
+	.left-footer i {
+		margin-left: 95px;
+	}
+}
+
+@media screen and (min-width: 781px) and (max-width: 940px) {
+	.about-social {
+		padding: 10px 40px !important;
+	}
+}
+
+@media screen and (min-width: 781px) and (max-width: 1150px) {
+	.how-to-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+	.how-to-each {
+		margin: 15px auto 5px;
+	}
+
+	.wrap .arrow {
+	display: none;
+}
+
+	.about-social {
+		padding: 10px 100px;
+	}
+
+.just-span {
+	text-align: center;
+}
+
+.right-nav-links {
+	text-align: center;
+}
+
+	.right-social {
+		border-left: 1px solid #ccc;
+		justify-content: end;
+	}
+
+	.rights {
+	flex-direction: column;
+	grid-row-gap: 20px;
+}
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1251px) {
+	.navbar {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 310px) {
+	.left-footer {
+		margin-left: 0px !important;
+		text-align: center !important;
+	}
+
+	.left-footer i {
+		margin-left: 110px;
+	}
+
+	.left-pos, .right-pos {
+		font-size: 20px;
+		margin-left: 0px;
+	}
+}
+
+
+@media screen and (max-width: 529px) {
+.right-social i {
+	font-size: 20px;
+}
+
+}
+
+
+@media screen and (max-width: 410px) {
+	.left-footer {
+		text-align: left !important;
+		margin-left: 40px;
+	}
+
+}
+
+@media screen and (max-width: 515px) {
+	.cont {
+		margin-top: 80px;
+	}
+	.about-social {
+		margin-top: 120px !important;
+	}
+}
+
+
+@media screen and (max-width: 780px) {
+
+/*Header======*/
+.logo {
+    align-self: center;
+    ;
+}
+
+.logo a {
+	font-size: 20px;
+}
+
+.navbar {
+	padding: 10px 20px;
+}
+
+.navbar nav {
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.navbar nav ul li a {
+    padding: 5px 6px;
+    font-size: 13px;
+}
+
+.right-nav {
+	align-self: center;
+}
+
+.right-nav-links {
+	text-align: center;
+	align-self: center;
+}
+
+.right-nav-links a {
+    padding: 2px 5px;
+
+}
+
+/*ABOUT========*/
+.about-social {
+	grid-template-columns: 100%;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.right-social {
+	justify-content: center;
+}
+
+.rights {
+	flex-direction: column;
+	grid-row-gap: 20px;
+}
+
+/*FOOTER======*/
+
+.footer {
+	flex-direction: column;
+	padding: 10px;
+}
+
+.right-footer, .copyrights {
+	margin-top: 20px;
+}
+
+.left-footer {
+	text-align: center;
+	width: 90%;
+}
+
+.copyrights {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.crafts {
+    text-align: center;
+}
+
+/*TOP BANNERS======*/
+.loan-sidebar {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-areas: "banner-text"
+						 "calculator";
+	padding: 0px 10px;
+	margin-top: 20px;
+	height: 100%;
+}
+
+.banner-text-inner .env {
+	width: 60%;
+}
+
+.banner-text-inner .nows {
+	width: 300px;
+}
+
+.banner-text-inner h4 {
+	padding: 20px 0px;
+	height: 50px;
+}
+
+.banner-text-inner h5 {
+	margin-top: 0px;
+}
+
+.liners, .h-world span {
+	display: none;
+}
+
+.banner-img {
+    height: 900px;
+}
+
+.banner-text {
+    width: 100%;
+    height: 98%;
+    opacity: 0.9;
+}
+
+.banner-text-inner h4 {
+    color: #000;
+    font-size: 20px;
+    
+}
+
+.banner-text-inner {
+	grid-area: banner-text;
+	margin: auto 10px;
+	display: grid;
+	justify-content: center;
+}
+
+.loan-calculator {
+	grid-area: calculator;
+	display: grid;
+	justify-content: center;
+	padding: 10px 10px 0px;
+	margin: 0px auto auto;
+	width: 400px;
+}
+
+#result {
+	width: 250px;
+}
+
+/*HOW TO*/
+.psydus-how-to {
+    background: #ccc;
+    padding: 60px 20px 40px;
+    margin-top: 200px;
+}
+
+.psydus-how-to h4 {
+    margin-top: 160px;
+}
+
+.how-to-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.how-to-each {
+	margin: 15px auto 5px;
+}
+
+/*ADVANTAGES SECTION=====*/
+.advantages-main {
+    padding: 20px 10px;
+}
+
+.advantages-inner {
+    grid-template-columns: 100%;
+}
+
+.right-adv {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 1px;
+    align-self: center;
+}
+
+.all-adv {
+	margin: 0;
+}
+
+.right-adv-inner {
+	margin: 10px;
+}
+
+.take-loans {
+    padding: 10px 0px;
+}
+
+.amountss {
+    padding: 10px;
+    font-size: 23px;
+}
+
+/*SLIDER========*/
+
+.testimonial-main {
+	padding: 10px 0px;
+	width: 100%;
+}
+
+
+.lines {
+	position: static;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.line-text {
+    margin: 0px 0px;
+    font-size: 20px;
+}
+
+.wrap {
+	top: 20px;
+	padding: 0px;
+}
+
+.cont {
+    width: 100%;
+    position: relative;
+    background: #fff;
+    margin-right: 20px !important;
+}
+
+#testim-dots {
+	width: 80%;
+	text-align: center;
+}
+
+.wrap .arrow {
+	display: none;
+}
+
+/*End 700px*/
+}
+
+/*========*/
+
+@media screen and (min-width: 630px) and (max-width: 780px) {
+	body {
+		overflow-x: hidden;
+	}
+	.right-adv {
+		padding: 20px 70px;
+	}
+
+	.advantages-inner {
+    grid-template-columns: 100%;
+}
+}
+
+@media screen and (min-width: 781px) and (max-width: 930px) {
+	.advantages-main {
+		padding: 20px 20px;
+	}
+
+	.advantages-inner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+	}
+
+	
+
+	.right-adv {
+		grid-template-columns: 100%;
+		padding: 10px 60px;
+	}
+
+	.right-adv-inner {
+		margin: 10px 0px;
+	}
+
+	.all-adv {
+    margin: 0px auto;
+}
+
+.take-loans {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.amountss {
+    background: #D3562A;
+    padding: 10px;
+    color: #fff;
+    font-size: 23px;
+}
+}
+
+@media screen and (min-width: 781px) and (max-width: 1200px) {
+	.navbar {
+	padding: 10px 20px;
+	}
+
+	.logo {
+		align-self: center;
+	}
+
+	.logo a {
+		font-size: 20px;
+	}
+
+.banner-text-inner {
+	margin: auto 10px;
+}
+
+.banner-text-inner h4 {
+    font-size: 22px;
+}
+
+.loan-sidebar {
+	padding: 0px 10px;
+}
+
+.liners {
+	display: none;
+}
+
+}
+
+
+@media screen and (min-width: 910px) and (max-width: 1200px) {
+	.banner-text-inner {
+	margin: auto 60px;
+}
+
+.loan-sidebar {
+	padding: 0px 60px;
+}
+}
+
+@media screen and (max-width: 440px) {
+
+	.banner-text-inner .env {
+	width: 40%;
+	margin: 0px auto;
+}
+
+.banner-links {
+    margin: 20px auto;
+}
+
+.banner-text-inner .we-are {
+	font-size: 15px;
+}
+
+.banner-text-inner .nows {
+	width: 300px;
+}
+
+
+.banner-links a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 5px auto;
+}
+
+.banner-text-inner h4 {
+	padding: 20px 0px;
+	height: 50px;
+	font-size: 15px;
+}
+
+.banner-text-inner h5 {
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+	.banner-text-inner {
+	margin: auto auto;
+	text-align: center;
+	display: grid;
+	justify-content: center;
+	width: 80%;
+
+}
+
+
+.navbar nav {
+    margin-left: 100px;
+}
+
+.right-nav {
+	display: none;
+}
+
+	.logo img {
+      max-height: 50px;
+      margin-left: 30px;
+}
+
+
+	.right-nav {
+		margin-right: 30px;
+	}
+
+	.loan-calculator {
+	justify-content: center;
+	padding: 10px 20px 0px;
+	margin: 0px auto 0px !important;
+	width: 300px !important;
+}
+
+	.monies {
+		align-self: center;
+	}
+
+	.loan-span {
+		font-size: 12px;
+	}
+
+	.main-calculator {
+		padding: 10px px;
+		width: 300px;
+	}
+
+.d-social a i {
+	font-size: 15px;
+	padding: 10px;
+}
+}
+
+@media screen and (max-width: 350px) {
+	.main-calculator {
+	padding: 10px 10px 0px;
+	width: 80% !important;
+	margin: 0;
+}
+}
+
+@media screen and (max-width: 280px) {
+	.navbar nav {
+    margin-left: 50px;
+}
+
+.main-calculator {
+	padding: 10px 10px 0px;
+	width: 60% !important;
+	margin: 0;
+}
+
+.right-nav {
+	display: none;
+}
+
+	.logo img {
+      max-height: 50px;
+      margin-left: 0px;
+}
+
+}
+
+@media screen and (max-width: 645px) {
+	.navbar {
+		grid-template-columns: 40% 30% 30%;
+	}
+	.navbar nav {
+    justify-content: start;
+}
+
+	.navbar nav ul {
+		background: #fff;
+		position: absolute;
+		top: 75px;
+		width: 100%;
+		left: 0;
+		text-align: center;
+	}
+
+	#myDIV {
+		display: none;
+	}
+
+	.alone {
+		display: none;
+	}
+
+	.apply-loan-btn {
+    border: 1px solid #D3562A !important;
+    background: #D3562A;
+    color: #fff !important;
+}
+
+.apply-loan-btn:hover {
+    color: #D3562A !important;
+}
+
+	.navbar nav ul li {
+		display: block;
+		margin: 30px 0px;
+	}
+
+	.navbar nav ul li a {
+		color: #000;
+		font-size: 15px;
+		padding: 10px 25px;
+	}
+
+	.navbar nav ul li a:hover {
+		background: #D3562A;
+		color: #fff;
+	}
+
+	.apply-loan-btn:hover {
+		color: #D3562A;
+		background: #fff !important;
+	}
+
+
+
+	.right-nav-links {
+		justify-content: center;
+	}
+
+	.hamburg {
+    display: block;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+	.hamburg i {
+		font-size: 25px;
+		background: transparent;
+		padding: 10px;
+		border-radius: 5px;
+		
+	}
+
+	.hamburg:hover {
+		background: #fff;
+		color: #D3562A!important;
+		transition: all 1s;
+	}
+}

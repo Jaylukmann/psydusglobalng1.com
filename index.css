@@ -1,0 +1,754 @@
+/*Global Styling*/
+html,body{
+  padding:0 auto;
+  margin:0 auto;
+  /*background-color:#6495ed;*/
+   overflow-x: visible;
+   overflow-y: visible;
+   max-width: 100%;
+   }
+   
+.header{
+  background-color:#6495ed;
+  height:4em;
+  position: fixed;
+  width:100%;
+  color:blue;
+}
+.dropdown button{
+  font-weight:bold;
+  background-color:#6495ed; 
+  color:#fff; 
+}
+.nav-container{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+. a{
+  text-decoration: none;
+}
+
+.nav{
+  padding-top:17px;
+  font-family:'Roboto';
+  line-height: 2.7;
+}
+
+.nav a{
+   text-decoration: none;
+   font-size: 18px;
+
+}
+
+.nav a:hover:not(.active) {
+  background-color: #FF1493;
+}
+
+.nav a .active {
+  background-color:#FF1493 ;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    padding:0;
+    margin:0;
+}
+.wrapper{
+  width:100%;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color:#6495ed;
+  color:#fff;
+  padding-right:20px;
+  font-size: 12px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 80px;
+  float:left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:#6495ed;
+color:blue;
+}
+
+.section1-peptalk{
+  padding-top:4.5em;
+  color:blue;
+  text-align:center;
+}
+.peptalk-paragraph{
+  padding-top:1.5em;
+  text-align:center;
+  color:blue;
+}
+.banner-image{
+  width: 50%;
+  height:50%;
+}
+.section2-btn{
+  text-align: center;
+}
+
+.whatsapp{
+  color:#fff; 
+  height:2.5em;
+  border-radius:25px;
+}
+
+.section4-whatsapp{
+  color:blue;
+}
+.section5-unique{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  background-color:#fff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-container{
+   display:grid;
+   grid-gap: 10em;
+   grid-template-columns:1fr 1fr 1fr;
+   
+}
+/*.cards{
+  box-shadow:0px 3px 3px 3px grey;
+}*/
+
+.card-titles{
+  text-align: center;
+  color:#FF1493;
+}
+.paragraph{
+  color:#fff;
+  text-align: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+}
+
+.section6-branch{
+color:blue;
+
+}
+
+.branch-container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+.worker-image{
+ width:100%;
+ height:100%;
+ } 
+
+.section7-calculator{
+  background-color:#FF1493;/* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#fff;
+  border:solid 3px;
+  border-bottom-color:#FFF;
+  padding-top: 1.5em;
+}
+.calculator-container{
+  display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+.section8-links-footer {
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+    }
+
+    .section8-links-footer a:link {
+      color:pink;
+    }
+.footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:grid;
+   grid-gap: 2em;
+   grid-template-columns:1fr 1fr;
+  
+}
+ .links-container{
+ display:grid;
+   grid-gap: 4em;
+   grid-template-columns:1fr 1fr 1fr 1fr; 
+  }
+
+.social-links{
+padding-top: 2%;
+color:#FF1493;
+width:2em;
+height:2em;
+}
+
+ul {
+list-style-type: none;
+}
+.pink{
+  color:#FF1493;
+}
+.black{
+  color:#000;
+}
+.blue{
+  color:blue;
+}
+.white{
+  color:#fff;
+}
+.headerblue{
+  color:#6495ed;
+}
+.title{
+  padding-top: 13px;
+  text-align: center;
+}
+ .address{
+  padding-left: 3.1em;
+ }
+
+.btn{
+/*  background-color:#FF1493;*/
+  color:pink;
+  text-align:center; 
+  height:2.5em;
+  border-radius:25px;
+}
+.btn a:link{
+ background-color: pink;
+}
+#result{
+  color:#6495ed;
+}
+
+#worker-calculator{
+  width:100%;
+  height:100%;
+    
+}
+#logo{
+width:5em; 
+height:4em;
+}
+}
+@media only screen and (min-width:900px) and (max-width:1440px){
+/*Global Styling*/
+html,body{
+  padding:0 auto;
+  margin:0 auto;
+  /*background-color:#6495ed;*/
+   overflow-x: visible;
+   overflow-y: visible;
+   max-width: 100%;
+   color:blue;
+   background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+ }
+
+.header{
+  background-color:#6495ed;
+  height:5em;
+  position: fixed;
+  width:100%;
+  color:blue;
+}
+.dropdown button{
+  font-weight:bold;
+  background-color:#6495ed; 
+  color:#fff; 
+}
+.nav-container{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+. a{
+  text-decoration: none;
+}
+
+.nav{
+  padding-top:17px;
+  font-family:'Roboto';
+  line-height: 2.7;
+}
+
+.nav a{
+   text-decoration: none;
+   font-size: 18px;
+
+}
+
+.nav a:hover:not(.active) {
+  background-color: #FF1493;
+}
+
+.nav a .active {
+  background-color:#FF1493 ;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p {
+    padding:0;
+    margin:0;
+   }
+.wrapper{
+  width:100%;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color:#6495ed;
+  color:#fff;
+  padding-right:20px;
+  font-size: 12px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color:green;*/
+   background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:blue;
+ padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 80px;
+  float:left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:#6495ed;
+}
+
+.section1-peptalk{
+  padding-top:1.5em;
+  color:blue;
+  text-align:center;
+}
+.peptalk-paragraph{
+  padding-top:1.5em;
+   text-align:center;
+    color:blue;
+}
+.banner-image{
+  width: 50%;
+  height:50%;
+}
+
+
+.section2-btn{
+  text-align: center;
+}
+
+.whatsapp{
+  background-color:blue;
+  color:#fff; 
+  height:2.5em;
+  border-radius:25px;
+}
+
+.section4-whatsapp{
+  color:blue;
+  border:solid;
+  border:0 1em 0 1em;
+  border-color:#fff;
+}
+.section5-unique{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  border:solid 1px;
+  border-bottom-color:#FFF;
+   background-color:#fff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-container{
+   display:grid;
+   grid-gap: 10em;
+   grid-template-columns:1fr 1fr 1fr;
+   
+}
+/*.cards{
+  box-shadow:0px 3px 3px 3px grey;
+}*/
+
+.card-titles{
+  text-align: center;
+  color:#FF1493;
+}
+.paragraph{
+  color:#fff;
+  text-align: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+}
+
+.section6-branch{
+color:blue;
+
+}
+
+.branch-container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+.worker-image{
+ width:100%;
+ height:100%;
+ } 
+
+.section7-calculator{
+  background-color:#FF1493;/* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#fff;
+  border:solid 3px;
+  border-bottom-color:#FFF;
+  padding-top: 1.5em;
+}
+.calculator-container{
+   display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+.section8-links-footer {
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+    }
+
+    .section8-links-footer a:link {
+      color:pink;
+    }
+.footer-container{
+  background-color:#000;
+  color:#fff; 
+  display:grid;
+  grid-gap: 2em;
+  grid-template-columns:1fr 1fr;
+  
+}
+ .links-container{
+   display:grid;
+   grid-gap: 4em;
+   grid-template-columns:1fr 1fr 1fr 1fr; 
+  }
+
+.social-links{
+padding-top: 2%;
+color:#FF1493;
+width:2em;
+height:2em;
+}
+
+ul {
+list-style-type: none;
+}
+.pink{
+  color:#FF1493;
+}
+.black{
+  color:#000;
+}
+.blue{
+  color:blue;
+}
+.white{
+  color:#fff;
+}
+.headerblue{
+  color:#6495ed;
+}
+.title{
+  padding-top: 13px;
+  text-align: center;
+}
+ .address{
+  padding-left: 3.1em;
+ }
+
+.btn{
+/*  background-color:#FF1493;*/
+  color:pink;
+  text-align:center; 
+  height:2.5em;
+  border-radius:25px;
+}
+.btn a:link{
+ background-color: pink;
+}
+#result{
+  color:#6495ed;
+}
+#worker-calculator{
+  width:100%;
+  height:100%;
+}
+#logo{
+width:5em; 
+height:4em;
+}
+}
+
+/*styling for tablet*/
+@media only screen and (min-width:768px) and (max-width: 899px){
+    
+.header{
+  background-color:#6495ed;
+  height:4.1em;
+}
+
+#logo{
+padding-bottom: 0;
+width:4em; 
+height:4em;
+}
+.paragraph{
+  padding-left:1.5em;
+  padding-right:1.5em;
+}
+.title{
+  padding-top: 13px;
+  text-align: center;
+}
+  .dropbtn {
+  background-color: #6495ed;
+  color:#fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color:green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+  .dropdown-content a {
+  color:#fff;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6495ed;
+}
+
+.banner-image{
+  width: 50%;
+  height:50%;
+}
+  .links-container{
+  display:block;
+  }
+
+  .calculator-container{
+   display:block;
+}
+.card-container{
+    display:block;
+}
+.btn{
+  background-color:#FF1493;
+  color:blue;
+  text-align:center; 
+  height:2.5em;
+  border-radius:25px;
+}
+.branch-container{
+  display:block;
+}
+ .footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:block;
+}
+
+}
+ 
+
+
+
+/*styling for mobile phones*/
+@media only screen and (min-width:150px) and (max-width: 767px){
+  .section1-peptalk{
+  padding-top: 8em;
+  color:blue;
+  text-align:center;
+  border:solid;
+  border: 1em 0 1em 0;
+  border-color:#fff;
+}
+.header{
+  background-color:#6495ed;
+  height:4em;
+}
+#logo{
+padding-bottom: 0;
+width:5em; 
+height:4em;
+}
+.paragraph{
+  padding-left:1.5em;
+  padding-right:1.5em;
+}
+.title{
+  padding-top: 13px;
+  text-align: center;
+}
+  .dropbtn {
+  background-color: #6495ed;
+  color:#fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color:green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+  .dropdown-content a {
+  color:#fff;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6495ed;
+}
+.banner-image{
+  width: 50%;
+  height:50%;
+}
+#worker-calculator{
+  width:100%;
+  height:100%;
+  display:none;
+    
+}
+  .links-container{
+  display:block;
+  }
+
+  .calculator-container{
+   display:block;
+}
+.card-container{
+    display:block;
+}
+.branch-container{
+  display:block;
+}
+ .footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:block;
+}
+}

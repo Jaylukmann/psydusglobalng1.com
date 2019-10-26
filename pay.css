@@ -1,0 +1,240 @@
+html,body{
+  padding:0 auto;
+  margin:0 auto;
+  /*background-color:#6495ed;*/
+   overflow-x: visible;
+   overflow-y: visible;
+   max-width: 100%;
+   color:blue;
+   background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+ }
+
+#logo{
+width:4em; 
+height:3.2em;
+}
+
+.brand{
+  font-family:'Roboto';
+  line-height: 2.7;
+}
+.brand a{
+  text-decoration: none;
+}
+.paragraph{
+  padding-left:1.5em;
+  padding-right:1.5em;
+}
+.header{
+  background-color:#6495ed;
+  height:3.5em;
+  padding-right:3.1em;
+  position: fixed;
+  width:100%;
+}
+.nav-container{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.dropdown button{
+  font-weight:bold;
+  background-color:#6495ed; 
+  color:#fff; 
+}
+#director{
+  padding-top:17px;
+   line-height: 2.7;
+}
+. a{
+  text-decoration: none;
+}
+
+.nav{
+  padding-top:17px;
+  font-family:'Roboto';
+  line-height: 2.7;
+}
+
+.nav a{
+   text-decoration: none;
+   font-size: 18px;
+
+}
+
+.nav a:hover:not(.active) {
+  background-color: #FF1493;
+}
+
+.nav a .active {
+  background-color:#FF1493 ;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    padding:0;
+    margin:0;
+   }
+.wrapper{
+  width:100%;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#6495ed;
+  color:#fff;
+  padding-right:20px;
+  font-size: 12px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 80px;
+  float:left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6495ed;
+  color:blue;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding:0;
+    margin:0;
+   }
+   .container1{
+ background-color:#FFF;
+ background-color:#fff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:blue; 
+  display:grid;
+   grid-gap: 5em;
+   grid-template-columns:1fr 1fr;
+}
+.image{
+  width:100%; 
+  height:100%
+  }
+#payment-title{
+  background-color:#FF1493; 
+}
+
+
+.section8-links-footer {
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+    }
+
+    .section8-links-footer a:link {
+      color:#fff;
+    }
+.footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+ .links-container{
+ display:grid;
+   grid-gap: 4em;
+   grid-template-columns:1fr 1fr 1fr 1fr; 
+  }
+
+.social-links{
+padding-top: 2%;
+color:#FF1493;
+width:2em;
+height:2em;
+}
+
+ul {
+list-style-type: none;
+}
+.pink{
+  color:#FF1493;
+}
+.black{
+  color:#000;
+}
+.blue{
+  color:blue;
+}
+.white{
+  color:#fff;
+}
+.title, .address{
+  padding-left: 6em;
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 899px){
+     .container1{
+ background-color:#FFF;
+  color:blue; 
+  display:grid;
+   grid-gap: 5em;
+   grid-template-columns:1fr;
+}
+
+.footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:block;
+}
+ .links-container{
+ display:block;
+  }
+}
+
+
+@media only screen and (min-width:240px) and (max-width: 767px){
+     .container1{
+ background-color:#FFF;
+  color:blue; 
+  display:block;
+}
+.footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:block;
+}
+ .links-container{
+ display:block;
+  }
+}
